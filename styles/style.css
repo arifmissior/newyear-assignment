@@ -53,6 +53,31 @@
 }
 /* exerience part end */
 
+/* positive part styles */
+
+.positive-container {
+  background-image: url(../images/gradient2.png), url(../images/watch.png);
+  height: 40vh;
+  width: 80%;
+  margin: auto;
+  border-radius: 20 px;
+}
+.positive-discrip {
+  color: #ffffff;
+  padding: 30px;
+  margin: 50px;
+}
+.call-btn {
+  border: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  color: #f15b22;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+/* positive parts style finished */
+
 /* Footer styles */
 
 .footer-container {
@@ -62,6 +87,9 @@
   height: 50vh;
   align-items: center;
   justify-content: space-evenly;
+}
+footer {
+  margin-top: 10%;
 }
 
 .footer-discription {
