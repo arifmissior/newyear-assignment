@@ -4,7 +4,7 @@
   padding: 0px;
   /* border: 1px solid red; */
 }
-/* Header part */
+/* Header part styles */
 
 .banner-container {
   width: 100%;
@@ -38,7 +38,7 @@
 }
 /* end of header part */
 
-/* experience part begin */
+/* experience part styles */
 
 .experiences {
   display: flex;
@@ -52,3 +52,37 @@
   width: 40%;
 }
 /* exerience part end */
+
+/* Footer styles */
+
+.footer-container {
+  background-color: #151414;
+  color: white;
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-discription {
+  width: 40%;
+}
+
+.footer-input {
+  background-color: #151414;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-btn {
+  border: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  color: #f15b22;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+/* footer styles finished */
