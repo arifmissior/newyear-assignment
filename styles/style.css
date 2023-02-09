@@ -2,6 +2,7 @@
   font-family: "Work Sans";
   margin: 0px;
   padding: 0px;
+  /* border: 1px solid red; */
 }
 /* Header part */
 
@@ -36,3 +37,18 @@
   margin-top: 15px;
 }
 /* end of header part */
+
+/* experience part begin */
+
+.experiences {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.experience-img {
+  width: 400px;
+}
+.experience-discrip {
+  width: 40%;
+}
+/* exerience part end */
